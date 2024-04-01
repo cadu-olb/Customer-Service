@@ -1,0 +1,12 @@
+name = input("What is your name?: ")
+age = int(input("What is your age?: "))
+pregnate = input("Are you pregnant? yes or no: ").lower()
+
+if pregnate == "yes":
+    print(name + " you have preferential treatment.")
+
+elif age >=65:
+    print(name + " you have preferential treatment.")
+
+else:
+    print(name + " you do not have preferential treatment.")
